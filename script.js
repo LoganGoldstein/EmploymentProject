@@ -176,7 +176,7 @@ for (let i = 0; i < 22; i++) {
 let xhr = new XMLHttpRequest();
 xhr.addEventListener("load", responseReceivedHandler);
 xhr.responseType = "json";
-//xhr.open("GET", "https://api.bls.gov/publicAPI/v2/timeseries/data/CEU4100000001?registrationkey=24f7ea35fa2c4849991d07b01fe68852");
+//xhr.open("GET", "https://api.bls.gov/publicAPI/v2/timeseries/data/CEU4100000001?registrationkey=");
 xhr.open("GET", "https://api.bls.gov/publicAPI/v2/timeseries/data/CEU" + Supersector_Keys[i].toString() + "00000001?registrationkey=");
 xhr.send();
 
